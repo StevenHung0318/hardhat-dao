@@ -1,28 +1,4 @@
-_As of Jan. 15, 2024, this repo is archived. The underlying codebase for how to make a DAO has greatly changed due to the changing nature of many of the packages this codebase used, and I don't have time to continue to maintain it._
-
 # DAO Template
-
-*This has been updated to work with Sepolia over Goerli*
-
-<div id="top"></div>
-
-- [DAO Template](#dao-template)
-  - [About](#about)
-    - [How to DAO](#how-to-dao)
-    - [No Code Tools](#no-code-tools)
-- [Getting Started](#getting-started)
-  - [Requirements](#requirements)
-    - [Installation](#installation)
-  - [Usage](#usage)
-    - [On-Chain Governance Example](#on-chain-governance-example)
-    - [Off-Chain governance Example](#off-chain-governance-example)
-  - [Roadmap](#roadmap)
-  - [Contributing](#contributing)
-  - [License](#license)
-  - [Contact](#contact)
-  - [Acknowledgments](#acknowledgments)
-
-[You can also see the python/brownie version of this here.](https://github.com/brownie-mix/dao-mix)
 
 <!-- ABOUT THE PROJECT -->
 ## About
@@ -108,7 +84,7 @@ It's recommended that you've gone through the [hardhat getting started documenta
 
 1. Clone this repo:
 ```
-git clone https://github.com/PatrickAlphaC/dao-template
+git clone https://github.com/StevenHung0318/dao-template
 cd dao-template
 ```
 2. Install dependencies
@@ -190,55 +166,6 @@ You can also use the [Openzeppelin contract wizard](https://wizard.openzeppelin.
 > This sectoin is still being developed. 
 
 Deploy your ERC20 and [make proposals in snapshot](https://docs.snapshot.org/proposals/create). 
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-<!-- ROADMAP -->
-## Roadmap
-
-- [] Add Upgradeability examples with the UUPS proxy pattern
-- [] Add Chainlink Oracle Integration with Snapsafe example
-
-See the [open issues](https://github.com/PatrickAlphaC/dao-template/issues) for a full list of proposed features (and known issues).
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-<!-- CONTRIBUTING -->
-## Contributing
-
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-<!-- LICENSE -->
-## License
-
-Distributed under the MIT License. See `LICENSE.txt` for more information.
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-<!-- CONTACT -->
-## Contact
-
-Hardhat - [@HardhatHQ](https://twitter.com/HardhatHQ)
-Patrick Collins - [@patrickalphac](https://twitter.com/patrickalphac)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
